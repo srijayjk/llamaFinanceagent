@@ -1,0 +1,29 @@
+# Kafka + YAML
+kafka-python==2.0.2
+PyYAML==6.0.1
+python-dotenv==1.0.1
+
+# LangChain + Ollama
+langchain==0.1.17
+langchain-community==0.0.36
+ollama==0.1.8
+
+# LangGraph
+langgraph==0.0.24
+
+# Time series + ML
+pandas==2.2.2
+numpy==1.26.4
+scikit-learn==1.5.0
+statsmodels==0.14.1
+
+# External APIs
+requests==2.32.3
+finnhub-python==2.4.16
+
+# Optional
+matplotlib==3.8.4
+seaborn==0.13.2
+torch==2.3.0
+tensorflow==2.16.1
+tqdm==4.66.4

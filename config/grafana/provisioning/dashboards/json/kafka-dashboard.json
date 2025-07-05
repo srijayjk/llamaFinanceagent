@@ -1,0 +1,28 @@
+{
+  "dashboard": {
+    "id": null,
+    "title": "Kafka Stream Monitoring",
+    "timezone": "browser",
+    "panels": [
+      {
+        "type": "graph",
+        "title": "Anomalies Over Time",
+        "targets": [
+          {
+            "expr": "increase(anomaly_count_total[1m])",
+            "legendFormat": "Anomalies/min",
+            "refId": "A"
+          }
+        ],
+        "xaxis": { "mode": "time" },
+        "yaxes": [
+          { "format": "short", "label": "Count" },
+          { "format": "short" }
+        ]
+      }
+    ],
+    "schemaVersion": 16,
+    "version": 1,
+    "editable": true
+  }
+}

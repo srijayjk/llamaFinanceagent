@@ -1,0 +1,8 @@
+## ---------------- config/settings.yaml ----------------
+# API keys and config settings
+finnhub:
+  token: "d1js5ppr01qvg5h0fuhgd1js5ppr01qvg5h0fui0"
+  symbol: "AMZN"
+kafka:
+  bootstrap_servers: "localhost:9092"
+  topic: "finnhub-stream"
